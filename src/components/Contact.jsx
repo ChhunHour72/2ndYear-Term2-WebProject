@@ -32,7 +32,7 @@ export default function Contact({ textEnter, textLeave }) {
           <img src="telegram.png" alt="telegram" />
           <div className="detail">
             <h4>Telegram</h4>
-            <a>@JohnCena</a>
+            <a href='https://telegram.org/'>@JohnCena</a>
           </div>
         </motion.div>
         <small style={{marginTop: '6%' }}>You can also connect with me on: </small>
@@ -43,7 +43,7 @@ export default function Contact({ textEnter, textLeave }) {
           <img src="github.png" alt="github" />
           <div className="detail">
             <h4>Github</h4>
-            <a>@JohnCena</a>
+            <a href='https://github.com/SeaHuyty'>@JohnCena</a>
           </div>
         </motion.div>
         <motion.div className="box"
@@ -53,7 +53,7 @@ export default function Contact({ textEnter, textLeave }) {
           <img src="linkedIn.png" alt="github" />
           <div className="detail">
             <h4>LinkedIn</h4>
-            <a>@JohnCena</a>
+            <a href='https://www.linkedin.com/'>@JohnCena</a>
           </div>
         </motion.div>
         <small style={{marginTop: '6%' }}>Download my resume: </small>
@@ -64,7 +64,7 @@ export default function Contact({ textEnter, textLeave }) {
           <img src="download.png" alt="download" />
           <div className="detail">
             <h4>Download Resume</h4>
-            <a download='/Mr.pdf'>Click me</a>
+            <a href='/Mr.pdf' download='/Mr.pdf'>Click me</a>
           </div>
         </motion.div>
       </div>
